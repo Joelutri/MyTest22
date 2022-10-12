@@ -1,6 +1,72 @@
-body {
-    background-color:blue;
-    font:arial;
-    font-size:medium;
-    border:1px solid black;
-}
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align:center;
+    color:red;
+  }
+  
+  body {
+    margin: 0;
+    background-color:rgb(21, 0, 210)
+  }
+  
+  
+  .header {
+    background-color: #e70202;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(4, 180, 255);
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgb(255, 1, 1);
+    color: black;
+  }
+  
+  
+  .column {
+    float: center;
+    padding: 10px;
+    text-align:center;
+   
+    
+  }
+  
+  
+  .footer {
+    background-color: #eb0000;
+    padding: 30px;
+    text-align: center;
+  }
+  @media only screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    body {
+      background-color: lightblue;
+    }
+  }
